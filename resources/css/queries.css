@@ -32,6 +32,12 @@
 @media only screen and (max-width: 767px) {
     body { font-size: 16px; }
     
+    header {
+        overflow: hidden;
+        background-size: auto 100%;
+        background-attachment: initial !important;
+    }
+    
     section { padding: 40px 0; }
     
     .small-hed { padding: 0 20px; }
@@ -117,12 +123,10 @@
 @media only screen and (max-width: 480px) {
     body { font-size: 14px; }
     
-    header {
+    .mobile-step { 
+        display: inline-block;
         overflow: hidden;
-        background-size: auto 100%;
-        background-attachment: initial !important;
     }
     
-    .mobile-step { display: inline-block; }
     .step { display: none; }
 }
