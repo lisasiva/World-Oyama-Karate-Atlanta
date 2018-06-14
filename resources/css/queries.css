@@ -120,7 +120,7 @@
     header {
         overflow: hidden;
         background-size: auto 100%;
-        background-attachment: scroll;
+        background-attachment: initial !important;
     }
     
     .mobile-step { display: inline-block; }
