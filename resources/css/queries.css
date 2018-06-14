@@ -10,7 +10,9 @@
     body { font-size: 18px; }
     
      header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header-world-oyama-karate-atlanta-mobile.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header-alternate-1024x683.png);
+        background-position: center;
+        background-size: 100%;
     }
     
     .main-nav {
