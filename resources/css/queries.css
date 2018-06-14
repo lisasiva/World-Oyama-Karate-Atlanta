@@ -1,0 +1,122 @@
+/* --- Up to 1200px -- */
+@media only screen and (max-width: 1200px) {    
+    .step-container {
+       padding-left: 25px;
+    }
+}
+
+/* --- Up to 1023px -- */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    
+     header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header-world-oyama-karate-atlanta-mobile.png);
+    }
+    
+    .main-nav {
+        display: inline-block;
+    }
+    
+    .hero-text-box {
+        top: 30%;
+        left: 3%;
+    }  
+    
+    .step {
+        width: 60%;
+    }
+
+}
+
+/* --- Up to 767px -- */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    
+    section { padding: 40px 0; }
+    
+    .small-hed { padding: 0 20px; }
+
+    p.dek { margin-bottom: 15px; }
+    
+    blockquote { padding: 8%; }
+    
+    cite { margin-top: 8px; }
+    
+    .main-nav { display: none; } 
+    
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;  
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon ion-icon { color: #555; }
+    
+    .hero-text-box {
+        top: 30%;
+    }
+    
+    .features-section .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    .features-section ion-icon {
+        text-align: center;
+    }
+    
+    .instructor-section .col { width: 100%; }
+    
+    .instructor-section p.dek { margin-bottom: 35px; }
+    
+    .testimonials-section .col {
+        width: 100%;
+        padding: none;
+    }
+    
+    .student-photo,
+    cite { text-align: center; }
+    
+    .schedule-container .left-box {
+        float: none;
+        width: 100%;
+    }
+    
+    .schedule-container .right-box {
+        float: none;
+        width: 100%;
+    }
+    
+    .schedule-container li {
+        display: block;
+    }
+    
+    .step { width: 85%; }
+    
+    .trial-section p.dek { margin-bottom: 40px; }
+    .form-box { width: 90%; }
+
+}
+
+/* --- Up to 480px -- */
+@media only screen and (max-width: 480px) {
+    body { font-size: 14px; }
+    
+    .mobile-step { display: inline-block; }
+    .step { display: none; }
+}
