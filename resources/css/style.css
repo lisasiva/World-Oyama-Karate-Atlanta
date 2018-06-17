@@ -390,6 +390,10 @@ header {
     width: 100%;
 }
 
+.mobile-instructor-row { display: none; }
+
+.mobile-instructor-row blockquote { text-align: left; }
+
 .instructor-section .row {
     width: 70%;
 }
