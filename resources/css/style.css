@@ -390,7 +390,7 @@ header {
     width: 100%;
 }
 
-.instructor-row {
+.instructor-section .row {
     width: 70%;
 }
 
@@ -405,14 +405,6 @@ header {
     margin-top: 20px;
 }
 
-.instructor-photo { 
-    text-align: center;
-}
-
-.instructor-photo img {
-    -webkit-box-shadow: 4px 4px rgba(185, 182, 182, 0.38);
-    box-shadow: 4px 4px rgba(185, 182, 182, 0.38);
-}
 
 /* ------------------------------------------ */
 /* TESTIMONIALS */
