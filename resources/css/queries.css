@@ -94,7 +94,8 @@
     .instructor-quote {
         width: 100%;
         padding: none;
-        display: inline;
+        display: block !important;
+        margin: 0 auto !important;
     }
     
     .testimonials-section .col {
