@@ -572,6 +572,8 @@ p a:active {
     line-height: 200%;
 }
 
+.button-container { text-align: center; }
+
 input[type=text],
 select {
     border: 0;

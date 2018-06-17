@@ -134,4 +134,8 @@
     }
     
     .step { display: none; }
+    
+    input[type=submit] {
+        padding: 15px 18px;
+    }
 }
