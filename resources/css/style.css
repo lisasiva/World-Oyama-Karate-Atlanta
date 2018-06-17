@@ -586,6 +586,7 @@ input[type=submit] {
     background-color: #C42121;
     color: #eee;
     margin-top: 40px;
+    border: 1px solid #C42121;
 }
 
 ::-webkit-input-placeholder {
