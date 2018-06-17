@@ -148,6 +148,12 @@
 @media only screen and (max-width: 480px) {
     body { font-size: 14px; }
     
+    .logo {
+        margin-left: 15px;
+        height: 70px;
+        width: auto;
+    }
+    
     .mobile-instructor-row {
         display: inline-block;
         overflow: hidden;

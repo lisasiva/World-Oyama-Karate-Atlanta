@@ -675,7 +675,8 @@ footer p {
 .js--wp-6,
 .js--wp-7,
 .js--wp-8,
-.js--wp-9 {
+.js--wp-9,
+.js--wp-10 {
     opacity: 0;
 }
 
@@ -687,7 +688,8 @@ footer p {
 .js--wp-6.animated,
 .js--wp-7.animated,
 .js--wp-8.animated,
-.js--wp-9.animated {
+.js--wp-9.animated,
+.js--wp-10.animated {
     opacity: 1;
 }
 

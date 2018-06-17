@@ -105,6 +105,12 @@ $('a[href*="#"]')
         offset: '80%'
     });
     
+    $('.js--wp-10').waypoint(function(direction) {
+        $('.js--wp-10').addClass('animated fadeInUp');
+    }, {
+        offset: '80%'
+    });
+    
     /* For mobile navigation */
     
     $('.js--nav-icon').click(function () {
