@@ -95,18 +95,11 @@
         text-align: center;
     }
     
-    .instructor-row { text-align: center; }
+    .instructor-box:first-child { text-align: center; }
     
     .instructor-section p.dek { margin-bottom: 35px; }
     
-    .instructor-photo,
-    .instructor-quote {
-        width: 100% !important;
-        padding: none;
-        display: block !important;
-        margin: 0 auto !important;
-    }
-    
+
     .testimonials-section .col {
         width: 100%;
         padding: none;
@@ -141,7 +134,7 @@
 /* --- Up to 480px -- */
 @media only screen and (max-width: 480px) {
     body { font-size: 14px; }
-    
+
     .mobile-step { 
         display: inline-block;
         overflow: hidden;
