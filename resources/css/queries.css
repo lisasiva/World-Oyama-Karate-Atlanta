@@ -92,7 +92,7 @@
     
     .instructor-photo,
     .instructor-quote {
-        width: 100%;
+        width: 100% !important;;
         padding: none;
         display: block !important;
         margin: 0 auto !important;
