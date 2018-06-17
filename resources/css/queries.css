@@ -86,18 +86,19 @@
         text-align: center;
     }
     
-    .instructor-row {
-        text-align: center;
-    }
+    .instructor-row { text-align: center; }
+    
+    .instructor-section p.dek { margin-bottom: 35px; }
     
     .instructor-section .col {
         width: 100%;
         padding: none;
-        display: block;
-        margin: auto;
     }
     
-    .instructor-section p.dek { margin-bottom: 35px; }
+    .instructor-section img {
+        display: block;
+        margin: 0 auto;
+    }
     
     .testimonials-section .col {
         width: 100%;
